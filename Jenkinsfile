@@ -15,5 +15,7 @@ pipeline {
         stage('run') {
             steps {
                 sh 'javac hello'
+            }
+        }
     }
 }
