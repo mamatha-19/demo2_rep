@@ -5,7 +5,7 @@ agent any
     stage("clone")
     {
       steps{
-        git "https://github.com/mamatha-19/demo2_rep.git
+        git "https://github.com/mamatha-19/demo2_rep.git"
       }
     }
     stage('build')
