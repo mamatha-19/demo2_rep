@@ -12,3 +12,5 @@ pipeline {
                 sh 'javac Hello.java'
             }
         }
+    }
+}
